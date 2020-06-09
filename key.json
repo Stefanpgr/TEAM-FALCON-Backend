@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "team-falcon-b2727",
+    "private_key_id": "2441ad135d34450f9d7df807b4ff8950dc0705f2",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8NeYNyjm8Ab1A\niyI8vez6rlbiS3onxdfJdYI6lh1fMqcNlpA5XXZWeGgA6YOttO81+qgpUywbJJY1\nhRuOAyddpSsoCrVn2xE9huZYu+85ZponzeGliZ/UUZm1DAbh/+RFYhKoOJ2DYoJc\nNxIuUpnMBJ+NpNSKX//jLmh7m+T0/slvOA4NnjnGNi9oUBKo1pAqQ8fvy2GaGzOC\n7dxsJNHgiLsho/Yh98WngW9QxrM9Vg+isEeIbWfZnv/QC5WHRiGNCYmsGVDvHjkc\nDaIHNOSHUD2nmguMRXmD3KAH0N8kdR6OuxwtbuVGESVV1Y85cz6J5SHayNrkjt52\n21atxqpJAgMBAAECggEADtMnW/u2ANHu6x1qeiKy/sCVFb3AkU8bTazkr/ewuEBq\n+dOGaGECbWeOOFAsb+t6EiQ8cwYwSbJf5eGmXNEbxzEM4q+2lUfN+6zbX67soMwC\nUCipNvBNt3F2rCpBL95c8n159GfX5F2ci2XybSqoHvKtnKsYlg5fagYhnbxBqcMg\nsKFpKV0PmlFQf0M+34MMvd9yItxXiLZz3pNdwpw/AkIihFaTTPjjczm+enxNQVNo\ntsng1hCasdtkeS0a6NvDuj6vpmrZ1nr/BPvvCU9JWj8TSH38I0GxnQphJqw+rN4R\n6FVfuz6qFEuP0m/Dqdg7N/zxaCzIXc0EWC5YSCdmdwKBgQDfUi3KSufIeBF+ndd8\nKVKibc+RFkXce0vxkKZQLSr2GY1FjjIvasNw4WGb1b7mw4XKDYB2rdruGt3c/8z4\nttHtu9QBNvznL/tCYQnrDLgEQvnfwKSSclbw04+6IJqf74w8402hy5vtgaq+tKOo\nvlTUwrEyYQWjSxgYrMrqm263rwKBgQDXwHKXRHl6zL8YSwAZMTSvbZxPAIr/L/PR\nrYzmywnx76xdFDzJ/H/QOfxEX2kcOrM75PNEP3o6m9RR31l+xZfODgmXgvrknj2k\n4W8L5Fh+GUmFaCPRdiW8XjXLoBP0HpTRhA30BCA/nn8soeSoDmcaYSCKxipftwSf\nQ2wAy/9DhwKBgGcgU/Tu0kpI6AtIaJH1oytO+mNNncVLSq6q1aKAuS4cbpiIKbSr\n4MTnz2NfOWDnOYks4v3rGwaJcZr0pXrVMexOqIBHHFLGXYkxtprMrM2LAEjLdTQL\niQp9KAoTtFPXEzOq49arZ74t+uNGF6189z+pCJrzIt9ddisu4CWm0WIRAoGBAJGx\ng7BirSYf3WuqOgbJE6rjegpfc32gBCYz7FJuCek20E6KvAIqYKVcgt4pD/HgMejg\nUuZjd0bctCQVj3nsNPcQw6ls6cA4m6gcE8EUEi4VJXDRQl7QSetKM0mub8sKW7Sg\nWEvP/Xb4sSiSqrZSA43syOztpO+9x4FFJknjeB1BAoGAKF+bCc4BZfjwO5aPOAcF\ncIAKgN1vjUYh2iVWf696rfe5kl3e+i+BcNRPKaQnDUAthQ/1LImIkfyP0or3+0gV\n8BzP/9VfhuwsJMGk2LTQeRwlctY2HGwMzfc/8RyKEz5mn7eeA7okbh7Bn7EVmeuC\nti6fv50mb2kI5PUhyL980GU=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-axyfr@team-falcon-b2727.iam.gserviceaccount.com",
+    "client_id": "105609220195952486877",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-axyfr%40team-falcon-b2727.iam.gserviceaccount.com"
+}

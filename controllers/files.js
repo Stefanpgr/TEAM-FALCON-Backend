@@ -4,7 +4,7 @@ const CustomError = require("./../utils/CustomError");
 
 /**
  * Controllers for :
- * 
+ *
  * getFiles
  * getFile,
  * createFile,
@@ -14,13 +14,15 @@ const CustomError = require("./../utils/CustomError");
 
 class FileContoller {
   // Add file
-  async createFile(req,res){
-    if (req.file) req.body["fileURL"] = req.file.path
+  async createFile(req, res) {
+    // if (req.file) req.body["fileURL"] = req.file.path
+    console.log(req.file);
+    if (!(req.file && req.file.gcsUrl)) {
+      return res.status(500).send("Unable to upload");
+    }
+    let file = await File.create(req.file);
 
-    let file = new File(req.body)
-    file.save()
-
-    res.status(201).json(response("File created", file, true))
+    res.status(201).json(response("File created", file, true));
   }
 
   // Get one file
@@ -31,8 +33,8 @@ class FileContoller {
       if (!file)
         return res.status(404).json(response("File Not Found", null, false));
 
-      res.status(200).json(response("File Found", file, true))
-    })
+      res.status(200).json(response("File Found", file, true));
+    });
   }
 
   //route handler to get all files
@@ -55,5 +57,17 @@ class FileContoller {
     });
   }
 }
+// class FileContoller {
 
-module.exports = new FileContoller();
+// }
+
+// module.exports = new FileContoller();
+
+// exports.createFile = function (req, res, next) {
+//     console.log(req.file)
+//     if (req.file && req.file.gcsUrl) {
+//         return res.send(req.file.gcsUrl);
+//     }
+
+//     return res.status(500).send("Unable to upload");
+// };
